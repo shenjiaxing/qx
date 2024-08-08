@@ -1,5 +1,10 @@
+var ojbk={
+    "code" : -1,
+    "_code" : 200,
+    "errorcode" : "-1"
 
-var chxm1023 = JSON.parse($response.body);
-console.log(chxm1023);
+    };
 
 
+
+$done({body:JSON.stringify(ojbk)});
